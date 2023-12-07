@@ -20,5 +20,6 @@ const getNextPage = () => {
 };
 const getPreviousPage = () => {
   pageNumberHere = pageNumberHere - 1;
+  console.log(pageNumberHere)
   fetchApi();
 };
